@@ -1,8 +1,8 @@
-@param String... items
+@param String... products
 
 <ul>
-  @for(String item : items) {
-    <li>💍 @item</li>
+  @for(String product : products) {
+    <li>@product</li>
   }
   @endfor
 </ul>
